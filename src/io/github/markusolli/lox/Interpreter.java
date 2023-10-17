@@ -92,7 +92,10 @@ class Interpreter implements Expr.Visitor<Object>{
     }
 
     private void checkNumberOperands(Token operator, Object left, Object right) {
-        if (left instanceof Double && right instanceof Double) return;
+        if (left instanceof Double && right instanceof Double) {
+            if (operator.type == TokenType.SLASH && (double)right == 0.0) throw new RuntimeError(operator, "Division by zero.");
+            return;
+        }
         throw new RuntimeError(operator, "Operands must be numbers.");
     }
 
