@@ -144,6 +144,7 @@ class Parser {
         return new ParseError();
     }
 
+    /*
     private void synchronize() {
         advance();
 
@@ -165,4 +166,5 @@ class Parser {
             advance();
         }
     }
+    */
 }
