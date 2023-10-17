@@ -5,4 +5,4 @@ To avoid deviating from the book when solving coding challenges, these are solve
 
 ## Java implementation
 Source code is found in the `src` directory.  
-Progress: [#---------]
+Progress: [##--------]
