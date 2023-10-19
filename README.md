@@ -3,4 +3,4 @@ I'm currently reading the book [Crafting Interpreters](https://craftinginterpret
 To keep the project in line with the book, my solutions to the coding challenges are in seperate branches.
 
 ## Java implementation  
-Progress: [######----]
+Progress: [#######---]
