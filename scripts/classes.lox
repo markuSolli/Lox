@@ -1,0 +1,15 @@
+class Square {
+    init(width, height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    getArea() {
+        return this.width * this.height;
+    }
+}
+
+var square = Square(5, 3);
+var areaFunc = square.getArea;
+square.width = 4;
+print areaFunc();
